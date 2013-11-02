@@ -1,5 +1,11 @@
 Omr::Application.routes.draw do
+<<<<<<< HEAD
   get "pages/home"
+=======
+  root 'pages#home'
+
+  get 'about' => 'pages#about'
+>>>>>>> 486d32900f288a8cc91465b790c24e415dbd7bd0
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
